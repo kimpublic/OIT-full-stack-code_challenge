@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #9b9b9b;
+    height: auto;
+  }
+  
+  .word-display {
+    font-size: 2em;
+    letter-spacing: 15px;
+    margin: 20px 0;
+  }
+  
+  .input-area {
+    margin-top: 20px;
+  }
+  
+  input#guess {
+    font-size: 1.2em;
+    width: 50px;
+    text-align: center;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  #restartBtn {
+    display: block;
+    margin: 20px auto 0 auto;
+    
+  }
